@@ -188,4 +188,17 @@ my_list.insert(1,"Hi")
 ***
 ***
 # Big O - Wrap Up
-* 
+* big O cheatsheet: https://www.bigocheatsheet.com/
+* ![](../images/bigO.png)
+* the spread becomes larger as O gets bigger
+* O(1) is most efficent
+* O(n^2) is the least efficent
+
+* O(n^2)
+  * This is a loop within a loop
+* O(n)
+  * This is proportional
+* O(log n)
+  * Divide and Conquer
+* O(1) 
+  * Constant

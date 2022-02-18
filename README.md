@@ -18,7 +18,7 @@ Python Algorithms and Data Structures Notes
 </details>
 
 <details>
-  <summary>02 - </summary>
+  <summary>02 - Classes and Pointers</summary>
       <a href="#">Part 1</a>
       <ol>
           <li><a href="#">description</a></li>
