@@ -18,15 +18,15 @@ Python Algorithms and Data Structures Notes
 </details>
 
 <details>
-  <summary>02 - Classes and Pointers</summary>
-      <a href="#">Part 1</a>
+  <summary>02 - Big O</summary>
+      <a href="./02-Big O/01-Notes.md">Part 1</a>
       <ol>
-          <li><a href="#">description</a></li>
+          <li><a href="./02-Big O/01-Notes.md">description</a></li>
       </ol>
 </details>
 
 <details>
-  <summary>03 - </summary>
+  <summary>03 - Classes and Pointers</summary>
       <a href="#">Part 1</a>
       <ol>
           <li><a href="#">description</a></li>
