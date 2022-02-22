@@ -181,3 +181,22 @@ print(my_tree.contains(27))
 
 print(my_tree.contains(17))
 ```
+
+***
+***
+# BST - Minimum value
+* find the minimum value beneath a provided node:
+```
+def min_value_node(self, current_node):
+    while current_node.left is not None:
+      current_node = current_node.left
+    return current_node
+```
+
+***
+***
+# BST - Summary
+* Binary Search Trees always have a better Big O than Linked Lists:
+  * An insert into a Binary Search Tree is typically (log n). Appending an item onto the end of a Linked List is O(1)..
+* Adding an item to a Binary Search Tree is O(log n):
+  * Omega (best case) and Theta (average case) are both (log n). However, worst case is O(n) and Big O measures worst case.
