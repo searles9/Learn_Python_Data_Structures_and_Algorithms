@@ -2,4 +2,37 @@
 ***
 ***
 # Bubble Sort - Intro
-* 
+* sort a list
+* to sort a list:
+    * you compare the first item to the second item
+    * if the first item is smaller then you switch them around
+    * then you compart the second item to the third...
+    * etc... all the way down the list
+    * what happens is you keep running these comparisons on the list until its fully sorted
+
+***
+***
+# Bubble Sort
+* range(len(list) - 1, 0 , -1):
+    * len - 1 ...self explanitory
+    * 0 go down to 0
+    * - 1 decriment by 1 (starting at the tail end)
+* the second for loop moves forward through the list
+    * for j in range(i)
+```
+def bubble_sort(my_list):
+    for i in range(len(my_list) - 1, 0 ,-1):
+        for j in range(i):
+            if my_list[j] > my_list[j+1]:
+                temp = my_list[j]
+                my_list[j] = my_list[j+1]
+                my_list[j+1] = temp
+    return my_list
+
+
+print(bubble_sort([4,2,6,5,1,3]))
+```
+
+***
+***
+# Selection Sort - Intro
